@@ -14,10 +14,10 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "BdZiw3GT4EP+CcEgzGa/b81tRZsUW//Xgkc+XmhSqIw="
+    key: "xxxxxxxxxxxxxxxxxx"
 
 ota:
-  password: "a1a3742513eb16433dc0345fe44caada"
+  password: "xxxxxxxxxxxxxxxxxx"
 
 wifi:
   ssid: !secret wifi_ssid
@@ -25,7 +25,7 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Growatt8266 Fallback Hotspot"
+    ssid: "Deye8266 Fallback Hotspot"
     password: "12345678"
 
 # Enable Web server
